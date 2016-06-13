@@ -37,7 +37,7 @@
               <span class="md-headline">{{restaurant.restaurantName}}</span>
               <span class="md-subhead">{{restaurant.userEmail}}</span>
               <p>{{restaurant.restaurantReview}}</p>
-              <div class ="ratinginfo">
+              <div class ="">
                   <ul>
                     <li>Food: {{restaurant.foodRating}}</li>
                     <li>Service: {{restaurant.serviceRating}}</li>
@@ -49,7 +49,8 @@
             </md-card-title-text>
             <md-card-title-media>
               <div class="md-media-md card-media">
-                <img id="restphoto" ng-src={{restaurant.image}} alt="">
+                <!-- NEED FILE UPLOADER WORKING FIRST <img id="restphoto" src={{restaurant.image}} alt=""> -->
+                <img src='http://www.fillmurray.com/100/100' alt="">
               </div>
 
             </md-card-title-media>
